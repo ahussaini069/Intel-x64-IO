@@ -187,7 +187,7 @@ getText:
 		decq	%r15
 		jmp 	iter_put_t
 	last_str:
-	subq	$r13, %r15
+	subq	%r13, %r15
 	movq	%r15, %rax	
     ret
 
